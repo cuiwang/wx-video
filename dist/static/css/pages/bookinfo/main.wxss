@@ -1,0 +1,27 @@
+@import "/static/css/vendor.wxss";
+
+.description.data-v-366a2ff6 {
+  display: -webkit-box;
+  font-size: 28 rpx;
+  color: #000000;
+  line-height: 40 rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.description2.data-v-366a2ff6 {
+  display: block;
+  font-size: 28 rpx;
+  color: #000000;
+  line-height: 40 rpx;
+  height: 120 rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.right.data-v-366a2ff6 {
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}

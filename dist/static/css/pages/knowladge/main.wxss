@@ -1,0 +1,44 @@
+@import "/static/css/vendor.wxss";
+
+.description.data-v-0288fd99 {
+  display: -webkit-box;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.description2.data-v-0288fd99 {
+  display: -webkit-box;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.description1.data-v-0288fd99 {
+  display: block;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  height: 120rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.right.data-v-0288fd99 {
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.card-2.data-v-0288fd99 {
+  box-shadow: 0 6rpx 12rpx rgba(0, 0, 0, 0.16), 0 6rpx 12rpx rgba(0, 0, 0, 0.23);
+}
+.card-4.data-v-0288fd99 {
+  box-shadow: 0 28rpx 56rpx rgba(0, 0, 0, 0.25), 0 20rpx 20rpx rgba(0, 0, 0, 0.22);
+}

@@ -1,0 +1,12 @@
+<template name="myheader$5b25f64d">
+  <view class="_div data-v-0737ee31">
+    <view style="display: flex;align-items: center;height: 54px;background-color: white;box-shadow:0px 1px 10px #ccc;" class="_div data-v-0737ee31">
+      <view style="display: flex;flex: 1;align-items: center;" class="_div data-v-0737ee31">
+        <image src="/static/images/logo.png" style="margin-left: 20px;width: 30px;height: 30px;margin-right: 2px;" class="_image data-v-0737ee31"></image>
+        <view style="font-size: 16px;color: #333;font-weight: bold;margin-top: 2px;" class="_div data-v-0737ee31">书和影视</view>
+      </view>
+      <image bindtap="handleProxy" src="/static/images/search3.png" style="width: 20px;height: 20px;margin-right: 20px;" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_image data-v-0737ee31"></image>
+      <open-data type="userAvatarUrl" style="width: 22px;height: 22px;margin-right: 20px;border-radius: 50%;overflow: hidden;" class="_open-data data-v-0737ee31"></open-data>
+    </view>
+  </view>
+</template>

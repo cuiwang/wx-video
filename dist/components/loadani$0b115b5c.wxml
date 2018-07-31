@@ -1,0 +1,32 @@
+<template name="loadani$0b115b5c">
+  <view class="_div data-v-4214cdee">
+    <view wx:if="{{showLoading}}" class="_div data-v-4214cdee">
+      <view class="_div data-v-4214cdee">
+        <view style="padding:20px;opacity:0.2;height:60%" animation="{{animationData}}" class="_view data-v-4214cdee">
+          <view style="height: 300rpx;background-color: #9b9b9b;" class="_view data-v-4214cdee"></view>
+          <view class="_view data-v-4214cdee weui-flex" style="align-items: center">
+            <view style="height: 100rpx;width: 100rpx;border-radius: 50%;background-color: #9b9b9b;margin: 20rpx;" class="_view data-v-4214cdee"></view>
+            <view class="_view data-v-4214cdee weui-flex__item" style="flex-direction: column">
+              <view style="background-color: #9b9b9b;height: 30rpx;margin-top: 20rpx;" class="_view data-v-4214cdee"></view>
+              <view style="background-color: #9b9b9b;height: 30rpx;margin-top: 20rpx;" class="_view data-v-4214cdee"></view>
+              <view style="background-color: #9b9b9b;height: 30rpx;margin-top: 20rpx;" class="_view data-v-4214cdee"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-4214cdee">
+        <view style="padding:20px;opacity:0.2;height:60%" animation="{{animationData2}}" class="_view data-v-4214cdee">
+          <view style="height: 300rpx;background-color: #9b9b9b;" class="_view data-v-4214cdee"></view>
+          <view class="_view data-v-4214cdee weui-flex" style="align-items: center">
+            <view style="height: 100rpx;width: 100rpx;border-radius: 50%;background-color: #9b9b9b;margin: 20rpx;" class="_view data-v-4214cdee"></view>
+            <view class="_view data-v-4214cdee weui-flex__item" style="flex-direction: column">
+              <view style="background-color: #9b9b9b;height: 30rpx;margin-top: 20rpx;" class="_view data-v-4214cdee"></view>
+              <view style="background-color: #9b9b9b;height: 30rpx;margin-top: 20rpx;" class="_view data-v-4214cdee"></view>
+              <view style="background-color: #9b9b9b;height: 30rpx;margin-top: 20rpx;" class="_view data-v-4214cdee"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,44 @@
+@import "/static/css/vendor.wxss";
+
+.description.data-v-7207a970 {
+  display: -webkit-box;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.description2.data-v-7207a970 {
+  display: block;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  height: 120rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.right.data-v-7207a970 {
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.scroll-view_H.data-v-7207a970 {
+  width: 100%;
+  white-space: nowrap;
+}
+.scroll-view-item_H.data-v-7207a970 {
+  width: 85%;
+  height: 80vh;
+  margin: 40rpx 0 40rpx 40rpx;
+  display: inline-block;
+}
+.swiper-item.data-v-7207a970 {
+  display: block;
+  height: 80vh;
+}
+.card-2.data-v-7207a970 {
+  box-shadow: 0 6rpx 12rpx rgba(0, 0, 0, 0.16), 0 6rpx 12rpx rgba(0, 0, 0, 0.23);
+}

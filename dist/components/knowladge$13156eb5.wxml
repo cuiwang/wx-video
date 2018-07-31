@@ -1,0 +1,36 @@
+<import src="cube_loading$756c8874" />
+<import src="myheader$5b25f64d" />
+<import src="loadani$0b115b5c" />
+<template name="knowladge$13156eb5">
+  <view class="_div data-v-0288fd99 page">
+    <view class="_div data-v-0288fd99 content" style="display: flex;flex-direction: column;">
+      <view wx:if="{{showNew}}" style="background-color: #fff;width: 100%;padding: 10px;top: -40px;align-self: center;" class="_div data-v-0288fd99">
+        <template data="{{...$root[$kk+'0'], $root}}" is="cube_loading$756c8874"></template>
+      </view>
+      <template data="{{...$root[$kk+'1'], $root}}" is="myheader$5b25f64d"></template>
+      <view bindtap="handleProxy" wx:key="index" key="{{index}}" style="margin: 10px;" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item" class="_div data-v-0288fd99">
+        <view class="_div data-v-0288fd99 panel card-2">
+          <view class="_div data-v-0288fd99 top" style="position: relative;">
+            <image mode="aspectFill" src="{{item.videoPlayInfo.CoverURL}}" style="height: 350rpx;width: 100%;" class="_image data-v-0288fd99"></image>
+            <text style="position: absolute;bottom: 10px;right: 5px;background-color: #000;color: white;padding:1px 5px;font-size: 12px;border-radius: 4px;" class="_text data-v-0288fd99"> {{item.videoPlayInfo.time}} </text>
+          </view>
+          <view class="_div data-v-0288fd99 bottom" style="display: flex;align-items: center;">
+            <image src="{{item.videoMaker.HeaderURL}}" style="border-radius: 50%;width: 40px;height: 40px;margin-right: 10px;" class="_image data-v-0288fd99"></image>
+            <view style="flex: 1;display: flex;flex-direction: column" class="_div data-v-0288fd99">
+              <block wx:if="{{item.readed}}">
+                <text class="_text data-v-0288fd99 description2" style="font-size: 14px;color: #999;">{{item.videoPlayInfo.Title}}</text>
+              </block>
+              <block wx:else>
+                <text class="_text data-v-0288fd99 description2" style="font-size: 14px;color: #333;">{{item.videoPlayInfo.Title}}</text>
+              </block>
+              <text style="font-size: 12px;color: #999;" class="_text data-v-0288fd99">{{item.videoMaker.Name}} · {{item.data.View}}次观看</text>
+            </view>
+            <image src="/static/images/more.png" style="width: 20px;height: 20px;" class="_image data-v-0288fd99"></image>
+          </view>
+        </view>
+        <view class="_div data-v-0288fd99 line" style="width: 100%;height: 1rpx;background-color: #eee;"></view>
+      </view>
+      <template data="{{...$root[$kk+'2'], $root}}" is="loadani$0b115b5c"></template>
+    </view>
+  </view>
+</template>

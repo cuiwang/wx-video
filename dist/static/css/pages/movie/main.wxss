@@ -1,0 +1,116 @@
+@import "/static/css/vendor.wxss";
+
+.description.data-v-52d82247 {
+  display: -webkit-box;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.description2.data-v-52d82247 {
+  display: -webkit-box;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.description1.data-v-52d82247 {
+  display: block;
+  font-size: 28rpx;
+  color: #000000;
+  line-height: 40rpx;
+  height: 120rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.right.data-v-52d82247 {
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.card-2.data-v-52d82247 {
+  box-shadow: 0 6rpx 12rpx rgba(0, 0, 0, 0.16), 0 6rpx 12rpx rgba(0, 0, 0, 0.23);
+}
+.card-4.data-v-52d82247 {
+  box-shadow: 0 28rpx 56rpx rgba(0, 0, 0, 0.25), 0 20rpx 20rpx rgba(0, 0, 0, 0.22);
+}
+.sk-wandering-cubes.data-v-52d82247 {
+  margin: 80rpx auto;
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+}
+.sk-wandering-cubes .sk-cube.data-v-52d82247 {
+  background-color: #67cf22;
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-wanderingCube-data-v-52d82247 1.8s ease-in-out -1.8s infinite both;
+  animation: sk-wanderingCube-data-v-52d82247 1.8s ease-in-out -1.8s infinite both;
+}
+.sk-wandering-cubes .sk-cube2.data-v-52d82247 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+@-webkit-keyframes sk-wanderingCube {
+0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+25% {
+    -webkit-transform: translateX(60rpx) rotate(-90deg) scale(0.5);
+    transform: translateX(60rpx) rotate(-90deg) scale(0.5);
+}
+50% {
+    -webkit-transform: translateX(60rpx) translateY(60rpx) rotate(-179deg);
+    transform: translateX(60rpx) translateY(60rpx) rotate(-179deg);
+}
+50.1% {
+    -webkit-transform: translateX(60rpx) translateY(60rpx) rotate(-180deg);
+    transform: translateX(60rpx) translateY(60rpx) rotate(-180deg);
+}
+75% {
+    -webkit-transform: translateX(0) translateY(60rpx) rotate(-270deg) scale(0.5);
+    transform: translateX(0) translateY(60rpx) rotate(-270deg) scale(0.5);
+}
+100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+}
+@keyframes sk-wanderingCube-data-v-52d82247 {
+0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+25% {
+    -webkit-transform: translateX(60rpx) rotate(-90deg) scale(0.5);
+    transform: translateX(60rpx) rotate(-90deg) scale(0.5);
+}
+50% {
+    -webkit-transform: translateX(60rpx) translateY(60rpx) rotate(-179deg);
+    transform: translateX(60rpx) translateY(60rpx) rotate(-179deg);
+}
+50.1% {
+    -webkit-transform: translateX(60rpx) translateY(60rpx) rotate(-180deg);
+    transform: translateX(60rpx) translateY(60rpx) rotate(-180deg);
+}
+75% {
+    -webkit-transform: translateX(0) translateY(60rpx) rotate(-270deg) scale(0.5);
+    transform: translateX(0) translateY(60rpx) rotate(-270deg) scale(0.5);
+}
+100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+}

@@ -1,0 +1,39 @@
+<import src="myheader$5b25f64d" />
+<import src="loadani1$547c89cf" />
+<template name="book$4e3c78ac">
+  <view class="_div data-v-7207a970 page">
+    <view class="_div data-v-7207a970 content">
+      <template data="{{...$root[$kk+'0'], $root}}" is="myheader$5b25f64d"></template>
+      <template data="{{...$root[$kk+'1'], $root}}" is="loadani1$547c89cf"></template>
+      <swiper bindchange="handleProxy" style="height: 85vh;margin-top: 20px;margin-bottom: 20px;" previous-margin="20px" next-margin="20px" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_swiper data-v-7207a970">
+        <block wx:key="item.id" key="{{item.id}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <swiper-item bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" class="_swiper-item data-v-7207a970">
+            <view class="_div data-v-7207a970 panel" style="margin-right: 20px;">
+              <view style="background-color: #fff;height: 80vh;display: flex;flex-direction: column;align-items: center" class="_div data-v-7207a970">
+                <image src="{{item.doubanInfo.Image}}" class="_image data-v-7207a970 card-2" style="width: 120px;height: 160px;margin-top: 20px;"></image>
+                <block wx:if="{{item.readed}}">
+                  <text style="color: #999;text-align:center;font-size: 22px;font-family: SimSun;margin-top: 10px;padding-left: 20px;padding-right: 20px;" class="_text data-v-7207a970">《{{item.doubanInfo.Title}}》</text>
+                </block>
+                <block wx:else>
+                  <text style="color: #333;text-align:center;font-size: 22px;font-family: SimSun;margin-top: 10px;padding-left: 20px;padding-right: 20px;" class="_text data-v-7207a970">《{{item.doubanInfo.Title}}》</text>
+                </block>
+                <text style="color: #666;text-align:center;font-size: 14px;font-family: SimSun;margin-top: 10px;padding-left: 20px;padding-right: 20px;" class="_text data-v-7207a970">{{item.doubanInfo.Author}}</text>
+                <view style="flex: 1;" class="_div data-v-7207a970"></view>
+                <view class="_div data-v-7207a970 bottom" style="display: flex;flex-direction: column;justify-content: center;">
+                  <view style="display: flex;margin-bottom: 10px;justify-content: center" class="_div data-v-7207a970">
+                    <image src="{{item.videoMaker.HeaderURL}}" style="width: 30px;height: 30px;border-radius: 50%;overflow: hidden;" class="_image data-v-7207a970"></image>
+                  </view>
+                  <view style="text-align: center;color: #666;font-size: 14px;margin-bottom: 10px;margin-left: 15px;margin-right: 15px;" class="_p data-v-7207a970">{{item.videoPlayInfo.Title}}</view>
+                  <view style="margin-bottom: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;" class="_div data-v-7207a970">
+                    <image src="/static/images/user3.png" style="width: 14px;height: 14px;margin-right: 5px" class="_image data-v-7207a970"></image>
+                    <text style="text-align: center;color: #666;font-size: 14px;" class="_text data-v-7207a970">{{item.data.View}}</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</template>

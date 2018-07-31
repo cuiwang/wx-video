@@ -1,0 +1,29 @@
+<template name="bookinfo$603d2b5a">
+  <view class="_div data-v-366a2ff6 page">
+    <view class="_div data-v-366a2ff6 content">
+      <view class="_div data-v-366a2ff6">
+        <view style="display: flex;justify-content: center;align-items: center;height: 54px;background-color: white;box-shadow:0px 1px 10px #ccc;" class="_div data-v-366a2ff6">
+          <view style="font-size: 16px;color: #333;font-weight: bold;margin-top: 2px;" class="_div data-v-366a2ff6"> 《{{sDetail?sDetail.doubanInfo.Title:""}}》 </view>
+        </view>
+      </view>
+      <view wx:key="index" key="{{index}}" style="margin: 10px;" wx:for="{{fileInfos}}" wx:for-index="index" wx:for-item="item" class="_div data-v-366a2ff6">
+        <view class="_div data-v-366a2ff6 panel">
+          <view style="display: flex;" class="_div data-v-366a2ff6">
+            <view class="_div data-v-366a2ff6 left" style="flex: 1;display: flex;flex-direction: row;align-items: center">
+              <text style="font-size: 18px;color: #000;font-weight: bold;margin-bottom: 5px;" class="_text data-v-366a2ff6">{{index}} 格式</text>
+            </view>
+          </view>
+          <view bindtap="handleProxy" class="_div data-v-366a2ff6 bottom" style="display: flex;align-items: center;border-top: 2px dotted #eee;padding-top: 10px;padding-bottom: 10px;" data-eventid="{{'0-'+index+'-'+index2}}" data-comkey="{{$k}}" wx:for="{{item.data}}"
+            wx:for-index="index2" wx:for-item="data">
+            <view style="flex: 1;display: flex;flex-direction: column" class="_div data-v-366a2ff6">
+              <text style="font-size: 14px;color: #333;" class="_text data-v-366a2ff6">{{data.title}}</text>
+              <text style="font-size: 12px;color: #ff4f4d;" class="_text data-v-366a2ff6">{{data.link}}</text>
+            </view>
+            <image src="/static/images/more.png" style="width: 20px;height: 20px;" class="_image data-v-366a2ff6"></image>
+          </view>
+        </view>
+        <view class="_div data-v-366a2ff6 line" style="width: 100%;height: 1rpx;background-color: #eee;"></view>
+      </view>
+    </view>
+  </view>
+</template>

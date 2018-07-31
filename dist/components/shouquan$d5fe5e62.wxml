@@ -1,0 +1,13 @@
+<template name="shouquan$d5fe5e62">
+  <view style="margin: 20px;" class="_div data-v-6b2dd56b">
+    <view class="_view data-v-6b2dd56b header">
+      <image src="/static/images/logo.png" class="_image data-v-6b2dd56b"></image>
+      <view style="color: #333;text-align:center;font-size: 22px;font-family: SimSun;" class="_p data-v-6b2dd56b">书和影视</view>
+    </view>
+    <view class="_view data-v-6b2dd56b content">
+      <view class="_view data-v-6b2dd56b">申请获取以下权限</view>
+      <text class="_text data-v-6b2dd56b">・获得你的公开信息(昵称，头像等)</text>
+    </view>
+    <button class="_button data-v-6b2dd56b bottom" type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"> 授权登录 </button>
+  </view>
+</template>

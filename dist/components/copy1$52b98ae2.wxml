@@ -1,0 +1,132 @@
+<import src="myheader$5b25f64d" />
+<import src="loadani$0b115b5c" />
+<template name="copy1$52b98ae2">
+  <view class="_div data-v-75d9db73 page">
+    <view class="_div data-v-75d9db73 content">
+      <template data="{{...$root[$kk+'0'], $root}}" is="myheader$5b25f64d"></template>
+      <view style="margin: 10px;" class="_div data-v-75d9db73">
+        <view class="_div data-v-75d9db73 panel">
+          <view class="_div data-v-75d9db73 top" style="position: relative;">
+            <image mode="aspectFill" src="http://datas.book-movie.com/5a211cda36bb478abb6b71720506d59c/covers/c0e32e6e64b3428490a3bac88742eb94-00005.jpg" style="height: 350rpx;width: 100%;" class="_image data-v-75d9db73"></image>
+            <text style="position: absolute;bottom: 10px;right: 5px;background-color: #000;color: white;padding:1px 5px;font-size: 12px;border-radius: 4px;" class="_text data-v-75d9db73"> 1:31 </text>
+          </view>
+          <view class="_div data-v-75d9db73 bottom" style="display: flex;align-items: center;">
+            <image src="/static/images/head.png" style="border-radius: 50%;width: 40px;height: 40px;margin-right: 10px;" class="_image data-v-75d9db73"></image>
+            <view style="flex: 1;display: flex;flex-direction: column" class="_div data-v-75d9db73">
+              <text style="font-size: 14px;color: #333;" class="_text data-v-75d9db73">#001【谷阿莫】6分鐘看完《陰兒房 Insidious》1+2集</text>
+              <text style="font-size: 12px;color: #999;" class="_text data-v-75d9db73">谷阿莫 · 5831次观看 · 1周前</text>
+            </view>
+            <image src="/static/images/more.png" style="width: 20px;height: 20px;" class="_image data-v-75d9db73"></image>
+          </view>
+        </view>
+        <view class="_div data-v-75d9db73 line" style="width: 100%;height: 1rpx;background-color: #eee;"></view>
+      </view>
+      <view style="margin: 10px;" class="_div data-v-75d9db73">
+        <view class="_div data-v-75d9db73 panel">
+          <view style="display: flex;" class="_div data-v-75d9db73">
+            <view class="_div data-v-75d9db73 left" style="flex: 1;display: flex;flex-direction: column;">
+              <text style="font-size: 18px;color: #000;font-weight: bold;margin-bottom: 5px;" class="_text data-v-75d9db73">潜伏2</text>
+              <text style="font-size: 12px;color: #666;margin-bottom: 10px;" class="_text data-v-75d9db73">温子仁 · 恐怖电影</text>
+              <text class="_text data-v-75d9db73 description" style="font-size: 14px;color: #333;margin-bottom: 10px;">经历了上一集令人难以置信的变故后，莱姆波特家的长子达尔顿（Ty Simpkins 饰）暂时摆脱恶灵的纠缠，而灵媒伊莉丝（林·沙烨 Lin Shaye 饰）则惨死室中，达尔顿的父亲乔什（帕特里克·威尔森 Patrick Wilson 饰）蒙受杀人嫌疑。由于警方需要继续调查他们的房子，乔什只得带着妻子兰妮（罗丝·拜恩 Rose Byrne 饰）和三个孩子暂时回到母亲劳瑞安（芭芭拉·赫希 Barbara Hershey 饰）家居中。本以为一切回归正常，但是兰妮和孩子们似乎仍在饱受恶灵的纠缠。
+                劳瑞安意识到事态的严重性，于是请来仅次于伊莉丝的灵媒师卡尔（Steve Coulter 饰），试图将一切恢复正常，然而事态却朝着不可预测的方向发展……©豆瓣</text>
+              <view style="display: flex;align-items: center;" class="_div data-v-75d9db73">
+                <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                <image src="/static/images/rc_cs_star.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                <text style="font-size: 12px;color: #ffd686;margin-right: 10px;" class="_text data-v-75d9db73">7.8分</text>
+                <text style="font-size: 12px;color: #666;" class="_text data-v-75d9db73">102评论</text>
+              </view>
+              <text style="font-size: 12px;color: #999;margin-top: 10px;margin-bottom: 10px;" class="_text data-v-75d9db73">视频解说 ▼</text>
+            </view>
+            <view class="_div data-v-75d9db73 right">
+              <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2044151740.jpg" style="width: 120px;height: 160px" class="_image data-v-75d9db73"></image>
+            </view>
+          </view>
+          <view class="_div data-v-75d9db73 bottom" style="display: flex;align-items: center;">
+            <image src="/static/images/head.png" style="border-radius: 50%;width: 40px;height: 40px;margin-right: 10px;" class="_image data-v-75d9db73"></image>
+            <view style="flex: 1;display: flex;flex-direction: column" class="_div data-v-75d9db73">
+              <text style="font-size: 14px;color: #333;" class="_text data-v-75d9db73">#001【谷阿莫】6分鐘看完《陰兒房 Insidious》1+2集</text>
+              <text style="font-size: 12px;color: #999;" class="_text data-v-75d9db73">谷阿莫 · 5831次观看 · 1周前</text>
+            </view>
+            <image src="/static/images/more.png" style="width: 20px;height: 20px;" class="_image data-v-75d9db73"></image>
+          </view>
+        </view>
+        <view class="_div data-v-75d9db73 line" style="width: 100%;height: 1rpx;background-color: #eee;"></view>
+      </view>
+      <view style="margin: 10px;" class="_div data-v-75d9db73">
+        <view class="_div data-v-75d9db73 panel">
+          <view style="display: flex;" class="_div data-v-75d9db73">
+            <view class="_div data-v-75d9db73 left" style="flex: 1;display: flex;flex-direction: column;">
+              <text style="font-size: 18px;color: #000;font-weight: bold;margin-bottom: 5px;" class="_text data-v-75d9db73">潜伏2</text>
+              <view style="display: flex;margin-bottom: 10px;" class="_div data-v-75d9db73">
+                <text style="font-size: 12px;color: #666;margin-right: 10px;" class="_text data-v-75d9db73">温子仁</text>
+                <view style="display: flex;align-items: center;" class="_div data-v-75d9db73">
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <text style="font-size: 12px;color: #ffd686;margin-right: 10px;" class="_text data-v-75d9db73">7.8分</text>
+                  <text style="font-size: 12px;color: #666;" class="_text data-v-75d9db73">102评论</text>
+                </view>
+              </view>
+              <text class="_text data-v-75d9db73 description" style="font-size: 14px;color: #333;margin-bottom: 10px;">经历了上一集令人难以置信的变故后，莱姆波特家的长子达尔顿（Ty Simpkins 饰）暂时摆脱恶灵的纠缠，而灵媒伊莉丝（林·沙烨 Lin Shaye 饰）则惨死室中，达尔顿的父亲乔什（帕特里克·威尔森 Patrick Wilson 饰）蒙受杀人嫌疑。由于警方需要继续调查他们的房子，乔什只得带着妻子兰妮（罗丝·拜恩 Rose Byrne 饰）和三个孩子暂时回到母亲劳瑞安（芭芭拉·赫希 Barbara Hershey 饰）家居中。本以为一切回归正常，但是兰妮和孩子们似乎仍在饱受恶灵的纠缠。
+                劳瑞安意识到事态的严重性，于是请来仅次于伊莉丝的灵媒师卡尔（Steve Coulter 饰），试图将一切恢复正常，然而事态却朝着不可预测的方向发展……©豆瓣</text>
+              <view style="flex: 1;" class="_div data-v-75d9db73"></view>
+              <text style="font-size: 12px;color: #999;margin-bottom:10px;" class="_text data-v-75d9db73">视频解说 ▼</text>
+            </view>
+            <view class="_div data-v-75d9db73 right">
+              <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2044151740.jpg" style="width: 120px;height: 160px" class="_image data-v-75d9db73"></image>
+            </view>
+          </view>
+          <view class="_div data-v-75d9db73 bottom" style="display: flex;align-items: center;">
+            <image src="/static/images/head.png" style="border-radius: 50%;width: 40px;height: 40px;margin-right: 10px;" class="_image data-v-75d9db73"></image>
+            <view style="flex: 1;display: flex;flex-direction: column" class="_div data-v-75d9db73">
+              <text style="font-size: 14px;color: #333;" class="_text data-v-75d9db73">#001【谷阿莫】6分鐘看完《陰兒房 Insidious》1+2集</text>
+            </view>
+            <image src="/static/images/more.png" style="width: 20px;height: 20px;" class="_image data-v-75d9db73"></image>
+          </view>
+        </view>
+        <view class="_div data-v-75d9db73 line" style="width: 100%;height: 1rpx;background-color: #eee;"></view>
+      </view>
+      <view style="margin: 10px;" class="_div data-v-75d9db73">
+        <view class="_div data-v-75d9db73 panel">
+          <view style="display: flex;" class="_div data-v-75d9db73">
+            <view class="_div data-v-75d9db73 left" style="flex: 1;display: flex;flex-direction: column;">
+              <text style="font-size: 18px;color: #000;font-weight: bold;margin-bottom: 5px;" class="_text data-v-75d9db73">潜伏2</text>
+              <view style="display: flex;margin-bottom: 10px;" class="_div data-v-75d9db73">
+                <text style="font-size: 12px;color: #666;margin-right: 10px;" class="_text data-v-75d9db73">温子仁</text>
+                <view style="display: flex;align-items: center;" class="_div data-v-75d9db73">
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star_hover.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <image src="/static/images/rc_cs_star.png" style="width: 10px;height: 10px;" class="_image data-v-75d9db73"></image>
+                  <text style="font-size: 12px;color: #ffd686;margin-right: 10px;" class="_text data-v-75d9db73">7.8分</text>
+                  <text style="font-size: 12px;color: #666;" class="_text data-v-75d9db73">102评论</text>
+                </view>
+              </view>
+              <text class="_text data-v-75d9db73 description" style="font-size: 14px;color: #333;margin-bottom: 10px;">经历了上一集令人难以置信的变故后，莱姆波特家的长子达尔顿（Ty Simpkins 饰）暂时摆脱恶灵的纠缠，而灵媒伊莉丝（林·沙烨 Lin Shaye 饰）则惨死室中，达尔顿的父亲乔什（帕特里克·威尔森 Patrick Wilson 饰）蒙受杀人嫌疑。由于警方需要继续调查他们的房子，乔什只得带着妻子兰妮（罗丝·拜恩 Rose Byrne 饰）和三个孩子暂时回到母亲劳瑞安（芭芭拉·赫希 Barbara Hershey 饰）家居中。本以为一切回归正常，但是兰妮和孩子们似乎仍在饱受恶灵的纠缠。
+                劳瑞安意识到事态的严重性，于是请来仅次于伊莉丝的灵媒师卡尔（Steve Coulter 饰），试图将一切恢复正常，然而事态却朝着不可预测的方向发展……©豆瓣</text>
+              <text style="font-size: 12px;color: #999;align-self: end;" class="_text data-v-75d9db73">视频解说 ▼</text>
+            </view>
+            <view class="_div data-v-75d9db73 right">
+              <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2044151740.jpg" style="width: 120px;height: 160px" class="_image data-v-75d9db73"></image>
+            </view>
+          </view>
+          <view class="_div data-v-75d9db73 bottom" style="display: flex;align-items: center;border-top: 2px dotted #eee;padding-top: 10px;">
+            <image src="/static/images/head.png" style="border-radius: 50%;width: 40px;height: 40px;margin-right: 10px;" class="_image data-v-75d9db73"></image>
+            <view style="flex: 1;display: flex;flex-direction: column" class="_div data-v-75d9db73">
+              <text style="font-size: 14px;color: #333;" class="_text data-v-75d9db73">#001【谷阿莫】6分鐘看完《陰兒房 Insidious》1+2集</text>
+            </view>
+            <image src="/static/images/more.png" style="width: 20px;height: 20px;" class="_image data-v-75d9db73"></image>
+          </view>
+        </view>
+        <view class="_div data-v-75d9db73 line" style="width: 100%;height: 1rpx;background-color: #eee;"></view>
+      </view>
+    </view>
+    <template data="{{...$root[$kk+'1'], $root}}" is="loadani$0b115b5c"></template>
+  </view>
+</template>

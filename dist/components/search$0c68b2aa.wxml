@@ -1,0 +1,44 @@
+<template name="search$0c68b2aa">
+  <view class="_div data-v-41692247 page">
+    <view class="_div data-v-41692247 page__bd">
+      <view class="_div data-v-41692247 weui-search-bar" style="border-top: none;background-color: #ff4f4d;">
+        <view class="_div data-v-41692247 weui-search-bar__form">
+          <view class="_div data-v-41692247 weui-search-bar__box">
+            <icon class="_icon data-v-41692247 weui-icon-search_in-box" type="search" size="14"></icon>
+            <input type="text" class="_input data-v-41692247 weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" bindinput="handleProxy" focus="{{inputShowed}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+            <view class="_div data-v-41692247 weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+              <icon type="clear" size="14" class="_icon data-v-41692247"></icon>
+            </view>
+          </view>
+          <label class="_label data-v-41692247 weui-search-bar__label" hidden="{{inputShowed}}" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+            <icon class="_icon data-v-41692247 weui-icon-search" type="search" size="14"></icon>
+            <view class="_div data-v-41692247 weui-search-bar__text">搜索</view>
+          </label>
+        </view>
+        <view class="_div data-v-41692247 weui-search-bar__cancel-btn" style="color: #ffffff;font-size: 14px;" hidden="{{!inputShowed}}" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">取消</view>
+      </view>
+      <view class="_div data-v-41692247 weui-cells searchbar-result" wx:if="{{inputVal.length > 10}}">
+        <navigator url class="_navigator data-v-41692247 weui-cell" hover-class="weui-cell_active">
+          <view class="_div data-v-41692247 weui-cell__bd">
+            <view class="_div data-v-41692247">实时搜索文本</view>
+          </view>
+        </navigator>
+        <navigator url class="_navigator data-v-41692247 weui-cell" hover-class="weui-cell_active">
+          <view class="_div data-v-41692247 weui-cell__bd">
+            <view class="_div data-v-41692247">实时搜索文本</view>
+          </view>
+        </navigator>
+        <navigator url class="_navigator data-v-41692247 weui-cell" hover-class="weui-cell_active">
+          <view class="_div data-v-41692247 weui-cell__bd">
+            <view class="_div data-v-41692247">实时搜索文本</view>
+          </view>
+        </navigator>
+        <navigator url class="_navigator data-v-41692247 weui-cell" hover-class="weui-cell_active">
+          <view class="_div data-v-41692247 weui-cell__bd">
+            <view class="_div data-v-41692247">实时搜索文本</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

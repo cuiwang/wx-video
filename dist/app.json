@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/search/main",
+    "pages/book/main",
+    "pages/bookinfo/main",
+    "pages/copy1/main",
+    "pages/knowladge/main",
+    "pages/me/main",
+    "pages/movie/main",
+    "pages/shouquan/main",
+    "pages/video/main",
+    "pages/video2/main",
+    "pages/video3/main",
+    "pages/webview/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff4f4d",
+    "navigationBarTitleText": "书和影视",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#666666",
+    "selectedColor": "#ff4f4d",
+    "list": [
+      {
+        "pagePath": "pages/book/main",
+        "iconPath": "/static/images/book3.png",
+        "selectedIconPath": "/static/images/book1.png",
+        "text": "书籍"
+      },
+      {
+        "pagePath": "pages/movie/main",
+        "iconPath": "/static/images/movie3.png",
+        "selectedIconPath": "/static/images/movie1.png",
+        "text": "影视"
+      },
+      {
+        "pagePath": "pages/knowladge/main",
+        "iconPath": "/static/images/knowladge3.png",
+        "selectedIconPath": "/static/images/knowladge1.png",
+        "text": "知识"
+      }
+    ]
+  }
+}

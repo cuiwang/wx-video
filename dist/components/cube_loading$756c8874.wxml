@@ -1,0 +1,66 @@
+<template name="cube_loading$756c8874">
+  <view class="_div data-v-b3d5bcac">
+    <view wx:if="{{showLoading}}" class="_div data-v-b3d5bcac">
+      <view wx:if="{{types[0] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-wandering-cubes">
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube1"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube2"></view>
+        </view>
+      </view>
+      <view wx:if="{{types[1] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-rotating-plane"></view>
+      </view>
+      <view wx:if="{{types[2] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-double-bounce">
+          <view class="_view data-v-b3d5bcac sk-child sk-double-bounce1"></view>
+          <view class="_view data-v-b3d5bcac sk-child sk-double-bounce2"></view>
+        </view>
+      </view>
+      <view wx:if="{{types[3] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-wave">
+          <view class="_view data-v-b3d5bcac sk-rect sk-rect1"></view>
+          <view class="_view data-v-b3d5bcac sk-rect sk-rect2"></view>
+          <view class="_view data-v-b3d5bcac sk-rect sk-rect3"></view>
+          <view class="_view data-v-b3d5bcac sk-rect sk-rect4"></view>
+          <view class="_view data-v-b3d5bcac sk-rect sk-rect5"></view>
+        </view>
+      </view>
+      <view wx:if="{{types[4] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-three-bounce">
+          <view class="_view data-v-b3d5bcac sk-child sk-bounce1"></view>
+          <view class="_view data-v-b3d5bcac sk-child sk-bounce2"></view>
+          <view class="_view data-v-b3d5bcac sk-child sk-bounce3"></view>
+        </view>
+      </view>
+      <view wx:if="{{types[5] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-circle">
+          <view class="_view data-v-b3d5bcac sk-circle1 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle2 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle3 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle4 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle5 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle6 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle7 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle8 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle9 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle10 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle11 sk-child"></view>
+          <view class="_view data-v-b3d5bcac sk-circle12 sk-child"></view>
+        </view>
+      </view>
+      <view wx:if="{{types[6] == type}}" class="_div data-v-b3d5bcac">
+        <view class="_view data-v-b3d5bcac sk-cube-grid">
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube1"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube2"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube3"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube4"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube5"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube6"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube7"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube8"></view>
+          <view class="_view data-v-b3d5bcac sk-cube sk-cube9"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
